@@ -2,7 +2,7 @@
 #Ingresar 3 números de cualquier valor
 #Si n_1 es mayor o igual que n_2 y n_2 muestra n_1
 #Si n_2 es mayor o igual que n_3 muestra n_2
-#Sino muestra n3
+#Sino muestra n_3
 #Fin
 
 ## Args
