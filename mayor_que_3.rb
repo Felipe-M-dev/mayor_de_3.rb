@@ -1,5 +1,6 @@
 #Inicio
 #Ingresar 3 números de cualquier valor
+#Valida que sean 3 parámetros los ingresados
 #Si n_1 es mayor o igual que n_2 y n_2 muestra n_1
 #Si n_2 es mayor o igual que n_3 muestra n_2
 #Sino muestra n_3
@@ -13,10 +14,14 @@ n_3 = ARGV[2].to_i
 
 ## Main
 
-if n_1 >= n_2 && n_1 >= n_3
-    puts n_1 
-elsif n_2 >= n_3
-    puts n_2
+if !n_3.nil?
+    puts "Ingrese 3 parámetros"
 else
-    puts n_3
+    if n_1 >= n_2 && n_1 >= n_3
+        puts n_1
+    elsif n_2 >= n_3
+        puts n_2
+    else
+        puts n_3
+    end
 end
